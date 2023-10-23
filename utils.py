@@ -6,7 +6,7 @@ import re
 import requests
 import hashlib
 
-VERSION = "0.1.1"
+VERSION = "0.1.2"
 
 def print(*args, sep=' ', end='\n', file=None, flush=False): #overrided for color printing
   os.system('')
