@@ -26,12 +26,15 @@ class User:
       self.creditBalance = creditBalance
 
       #authenticate
+      self.authenticated = True #remove this and blockquote to reenable whitelist, but idrc for now 
+      """
       hashedID = getHash(userID)
       response = self.session.request("GET", "https://andylabs.org/bp/Aqua-Sniper/whitelist")
       whitelist = response.json()
       whitelistedUserIDs = whitelist["users"]
       if hashedID in whitelistedUserIDs:
         self.authenticated = True
+      """
 
   def getOwnedRares(self): 
     rares = [] #name, serial, backpackid, img (doesnt have ID for some reason)
