@@ -1,18 +1,13 @@
-{
+{ 
   "users": [
     {
       "username": "FIRST_USERNAME_HERE",
-      "password": "FIRST_PASSWORD_HERE"
+      "password": "FIRST_PASSWORDS_HERE"
     },
     {
-      "username": "SECOND_USERNAME_HERE",
-      "password": "SECOND_PASSWORD_HERE"
+      "username": "FIRST_USERNAME_HERE",
+      "password": "FIRST_PASSWORDS_HERE"
     }
   ],
-  "proxies": [
-    "username:password@192.168.0.1:80",
-    "username:password@192.168.0.1:8080",
-    "username:password@10.0.0.1:80",
-    "username:password@10.0.0.1:8080",
-  ]
+  "proxies": []
 }
