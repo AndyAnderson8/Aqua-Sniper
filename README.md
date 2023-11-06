@@ -60,4 +60,4 @@ Your account security is of the highest importance. Your login credentials store
 Please use this bot responsibly and ethically. Adhere to the terms of service of BrickPlanet. I am not responsible for any actions taken against your account for misuse of this bot. Use at your own risk.
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://github.com/AndyAnderson8/BrickPlanet-Sniper/blob/main/LICENSE.txt)
