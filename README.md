@@ -34,7 +34,7 @@ Aqua Sniper is a sophisticated tool designed to help you automatically secure an
         "username:password@192.168.0.1:80",
         "username:password@192.168.0.1:8080",
         "username:password@10.0.0.1:80",
-        "username:password@10.0.0.1:8080",
+        "username:password@10.0.0.1:8080"
       ]
     }
     ```
