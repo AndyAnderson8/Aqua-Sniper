@@ -10,10 +10,14 @@ Aqua Sniper is a sophisticated tool designed to help you automatically secure an
 - **Daily Login Rewards**: Reauthenticates each account every 24 hours to ensure you get your daily login rewards.
 
 ## Installation and Setup
-1. **Download or clone the repository**: Clone this repository to your local machine to get started.
+1. **Download or clone the repository**: Clone or download this repository to your local machine to get started.
+   ```bash
+    git clone https://github.com/AndyAnderson8/BrickPlanet-Sniper.git
+    cd BrickPlanet-Sniper
+    ```
 
 2. **Configure the sniper**: Open the `config.json` file and fill in your BrickPlanet username and password. This information is necessary for the bot to operate on your behalf. Additional accounts can be added or removed if desired. Proxies are also not essential, but will increase the speed at which the bot can query the site without being rate-limited.
-
+   
     ```json
     {
       "users": [
@@ -34,11 +38,17 @@ Aqua Sniper is a sophisticated tool designed to help you automatically secure an
       ]
     }
     ```
-
-3. **Running the sniper**: To get started with the bot, simply run the `RUN.bat` file. This script will not only automatically check and install any necessary Python packages but also initiate the bot immediately after the setup. Use this script each time you want to start the bot.
-
+    
+3. **Install Required Packages**: Make sure you have Python and pip installed. Then, install the necessary packages:
+   
+    ```bash
+    pip install -r requirements.txt
     ```
-    ./RUN.bat
+
+4. **Running the sniper**: Launch the `sniper.py` file, and let the tool do the rest.
+   
+    ```bash
+    python sniper.py
     ```
 
 ## Safety & Security
