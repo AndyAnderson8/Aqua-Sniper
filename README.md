@@ -1,12 +1,18 @@
 # Aqua Sniper - A Rare Item Sniper Bot for BrickPlanet
 
-Aqua Sniper is a sophisticated tool designed to help you secure any new rare items on BrickPlanet with ease. Please follow the instructions below to set up and use the bot.
+## Description
+Aqua Sniper is a sophisticated tool designed to help you automatically secure any new rare items on BrickPlanet with ease. The sniper will run in the background, continuously checking for new rares, and purchasing them the moment they are detected.
 
-## Setup Instructions
+## Features
+- **Automatic Purchasing**: Automatically checks for and purchases new rare items released in the shop.
+- **Multi-Account Functionality**: Allows for an unlimited number of accounts to be added and used for sniping.
+- **Support for Proxies**: Proxies can be added to allow for faster detection of new rares.
+- **Daily Login Rewards**: Reauthenticates each account every 24 hours to ensure you get your daily login rewards.
 
+## Installation and Setup
 1. **Download or clone the repository**: Clone this repository to your local machine to get started.
 
-2. **Configure your account**: Open the `config.json` file and fill in your BrickPlanet username and password. This information is necessary for the bot to operate on your behalf. Additional accounts can be added or removed if desired. Proxies are also not essential, but will increase the speed at which the bot can query the site without being rate-limited.
+2. **Configure the sniper**: Open the `config.json` file and fill in your BrickPlanet username and password. This information is necessary for the bot to operate on your behalf. Additional accounts can be added or removed if desired. Proxies are also not essential, but will increase the speed at which the bot can query the site without being rate-limited.
 
     ```json
     {
@@ -41,8 +47,7 @@ Your account security is of the highest importance. Your login credentials store
 
 ## Disclaimer
 
-Please use this bot responsibly and ethically. Adhere to the terms of service of BrickPlanet. I am not responsible for any actions taken against your account for misuse of this bot.
+Please use this bot responsibly and ethically. Adhere to the terms of service of BrickPlanet. I am not responsible for any actions taken against your account for misuse of this bot. Use at your own risk.
 
----
-
-Best of luck securing rare items on BrickPlanet!
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
