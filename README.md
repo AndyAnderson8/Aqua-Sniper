@@ -42,7 +42,7 @@ Aqua Sniper is a sophisticated tool designed to help you automatically secure an
 3. **Install Required Packages**: Make sure you have Python and pip installed. Then, install the necessary packages:
    
     ```bash
-    pip install -r requirements.txt
+    python pip install -r requirements.txt
     ```
 
 4. **Running the sniper**: Launch the `sniper.py` file, and let the tool do the rest.
