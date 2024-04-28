@@ -1,0 +1,37 @@
+[build-system]
+    requires = ["setuptools~=69.5.1", "wheel~=0.43.0"]
+    build-backend = "setuptools.build_meta"
+
+[project]
+    dependencies = [
+        "argparse==1.4.0",
+        "beautifulsoup4~=4.12.3",
+        "pyfiglet~=1.0.2",
+        "pyyaml~=6.0.1",
+        "requests~=2.31.0"
+    ]
+
+[project.optional-dependencies]
+    dev = [
+        "black~=24.4.2",
+        "flake8-pyproject~=1.2.3",
+        "isort~=5.13.2",
+        "mypy~=1.10.0",
+        "pyinstaller~=6.6.0",
+        "pytest~=8.2.0",
+        "types-beautifulsoup4~=4.12.0.20240229",
+        "types-pyyaml-6.0.12.20240311",
+        "types-requests-2.31.0.20240406"
+    ]
+
+[tool.flake8]
+    max-complexity = 10
+    max-line-length = 100
+    exclude = [
+        ".venv",
+        "build"
+    ]
+
+[tool.mypy]
+    python_version = "3.12"
+    exclude = "^(build|.venv)/"
