@@ -25,9 +25,15 @@ def color_print(text: str, overwrite: bool = False) -> None:
         indented_line = "    " + line
         n = len(indented_line)
         for i, char in enumerate(indented_line):
-            r = int(start_color[0] + (end_color[0] - start_color[0]) * i / max(n - 1, 1))
-            g = int(start_color[1] + (end_color[1] - start_color[1]) * i / max(n - 1, 1))
-            b = int(start_color[2] + (end_color[2] - start_color[2]) * i / max(n - 1, 1))
+            r = int(
+                start_color[0] + (end_color[0] - start_color[0]) * i / max(n - 1, 1)
+            )
+            g = int(
+                start_color[1] + (end_color[1] - start_color[1]) * i / max(n - 1, 1)
+            )
+            b = int(
+                start_color[2] + (end_color[2] - start_color[2]) * i / max(n - 1, 1)
+            )
             sys.stdout.write(f"\033[38;2;{r};{g};{b}m{char}\033[0m")
         sys.stdout.flush()
         if not overwrite or line != lines[-1]:

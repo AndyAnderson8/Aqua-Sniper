@@ -54,6 +54,8 @@ def build_executable() -> None:
         __app_name__.replace(" ", "_"),
         "--icon",
         "assets/favicon.ico",
+        "--add-data",
+        ".venv/Lib/site-packages/pyfiglet/fonts;pyfiglet/fonts",
         os.path.join("aqua_sniper/__main__.py"),
     ]
 
